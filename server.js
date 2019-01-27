@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
 
 // http://expressjs.com/en/starter/static-files.html
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // init sqlite db
 var fs = require('fs');

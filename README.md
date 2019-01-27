@@ -1,2 +1,1 @@
-# Navya-Fashion-Store
-Website for the navya fashion store.
+# Navya Fashion Store. 
